@@ -30,7 +30,7 @@ Including in Your Project
 =========================
 ### Gradle
 
-Add the JitPack repository to your build file:
+Add the JitPack repository to your project **build.gradle**:
 ```groovy
 allprojects {
 	repositories {
@@ -39,9 +39,9 @@ allprojects {
 }
 ```
 
-Then add this project:
+And add this library to your module **build.gradle**:
 ```groovy
-compile 'com.github.colinrtwhite:HtmlCompat:3.1.0'
+compile 'com.github.colinrtwhite.android-betterpickers:library:3.1.0'
 ```
 
 Usage
