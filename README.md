@@ -30,19 +30,18 @@ Including in Your Project
 =========================
 ### Gradle
 
+Add the JitPack repository to your build file:
 ```groovy
-compile 'com.code-troopers.betterpickers:library:3.1.0'
+allprojects {
+	repositories {
+		maven { url 'https://jitpack.io' }
+	}
+}
 ```
 
-### Maven
-
-```xml
-<dependency>
-  <groupId>com.code-troopers.betterpickers</groupId>
-  <artifactId>library</artifactId>
-  <version>3.1.0</version>
-  <type>aar</type>
-</dependency>
+Then add this project:
+```groovy
+compile 'com.github.colinrtwhite:HtmlCompat:3.1.0'
 ```
 
 Usage
